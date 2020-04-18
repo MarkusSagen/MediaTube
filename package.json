@@ -1,0 +1,30 @@
+{
+  "name": "media",
+  "version": "1.0.0",
+  "description": "Media service",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.3"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  },
+  "scripts": {
+    "test": "test",
+		"client": "cd client && npm start",
+    "server": "nodemon server.js",
+		"dev": "npm-run-all -p -r server client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarkusSagen/media-service.git"
+  },
+  "author": "Markus Sagen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MarkusSagen/media-service/issues"
+  },
+  "homepage": "https://github.com/MarkusSagen/media-service#readme"
+}
