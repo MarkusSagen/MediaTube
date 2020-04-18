@@ -3,10 +3,12 @@ A MERN application for displaying your local files in a convenient visually appe
 
 
 ## Setup
+```bash
 git clone https://github.com/MarkusSagen/media-service.git 
 cd media-service 
+yarn install && cd client && yarn install && cd ..
 yarn dev
-
+```
 
 
 
@@ -15,10 +17,11 @@ MySQL
 Express
 React
 Node
+TypeScript
+Redux
 
-```bash
-npm install -g yarn
-npm install -g nodemon
-npm install -g typescript
-npm install --save express
-npm install npm-run-all --save-dev
+
+
+
+
+
